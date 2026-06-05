@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import { AppContext } from '../context/ThemeContext';
+import { AppContext } from '../Context/ThemeContext';
 
 const UserCard = ({ user }) => {
 const [likes, setLikes] = useState(0);

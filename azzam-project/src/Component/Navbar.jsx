@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { AppContext } from '../context/ThemeContext';
+import { AppContext } from '../Context/ThemeContext';
 
 const Navbar = () => {
     const { totalLikes } = useContext(AppContext);

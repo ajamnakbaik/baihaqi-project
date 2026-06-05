@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import Navbar from './Component/Navbar';
 import UserCard from './Component/UserCard';
 import Footer from './Component/Footer';
-import { AppProvider } from './context/ThemeContext';
+import { AppProvider } from './Context/ThemeContext';
 
 function App() {
   const [users, setUsers] = useState([]);         
